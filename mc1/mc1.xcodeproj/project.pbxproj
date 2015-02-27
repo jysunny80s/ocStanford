@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		656558431AA0C9340012FAE1 /* card.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565583C1AA0C9340012FAE1 /* card.m */; };
+		656558441AA0C9340012FAE1 /* deck1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565583E1AA0C9340012FAE1 /* deck1.m */; };
+		656558451AA0C9340012FAE1 /* playingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 656558401AA0C9340012FAE1 /* playingCard.m */; };
+		656558461AA0C9340012FAE1 /* playingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 656558421AA0C9340012FAE1 /* playingCardDeck.m */; };
 		65D9A0461A93344F0067723F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D9A0451A93344F0067723F /* main.m */; };
 		65D9A0491A93344F0067723F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D9A0481A93344F0067723F /* AppDelegate.m */; };
 		65D9A04C1A93344F0067723F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D9A04B1A93344F0067723F /* ViewController.m */; };
@@ -27,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6565583B1AA0C9340012FAE1 /* card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = card.h; path = Model/card.h; sourceTree = "<group>"; };
+		6565583C1AA0C9340012FAE1 /* card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = card.m; path = Model/card.m; sourceTree = "<group>"; };
+		6565583D1AA0C9340012FAE1 /* deck1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deck1.h; path = Model/deck1.h; sourceTree = "<group>"; };
+		6565583E1AA0C9340012FAE1 /* deck1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = deck1.m; path = Model/deck1.m; sourceTree = "<group>"; };
+		6565583F1AA0C9340012FAE1 /* playingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = playingCard.h; path = Model/playingCard.h; sourceTree = "<group>"; };
+		656558401AA0C9340012FAE1 /* playingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = playingCard.m; path = Model/playingCard.m; sourceTree = "<group>"; };
+		656558411AA0C9340012FAE1 /* playingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = playingCardDeck.h; path = Model/playingCardDeck.h; sourceTree = "<group>"; };
+		656558421AA0C9340012FAE1 /* playingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = playingCardDeck.m; path = Model/playingCardDeck.m; sourceTree = "<group>"; };
 		65D9A0401A93344F0067723F /* mc1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mc1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D9A0441A93344F0067723F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D9A0451A93344F0067723F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +72,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		656558471AA0C93F0012FAE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6565583B1AA0C9340012FAE1 /* card.h */,
+				6565583C1AA0C9340012FAE1 /* card.m */,
+				6565583D1AA0C9340012FAE1 /* deck1.h */,
+				6565583E1AA0C9340012FAE1 /* deck1.m */,
+				6565583F1AA0C9340012FAE1 /* playingCard.h */,
+				656558401AA0C9340012FAE1 /* playingCard.m */,
+				656558411AA0C9340012FAE1 /* playingCardDeck.h */,
+				656558421AA0C9340012FAE1 /* playingCardDeck.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		65D9A0371A93344F0067723F = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				65D9A0471A93344F0067723F /* AppDelegate.h */,
+				656558471AA0C93F0012FAE1 /* Model */,
 				65D9A0481A93344F0067723F /* AppDelegate.m */,
 				65D9A04A1A93344F0067723F /* ViewController.h */,
 				65D9A04B1A93344F0067723F /* ViewController.m */,
@@ -220,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D9A04C1A93344F0067723F /* ViewController.m in Sources */,
+				656558441AA0C9340012FAE1 /* deck1.m in Sources */,
+				656558451AA0C9340012FAE1 /* playingCard.m in Sources */,
 				65D9A0491A93344F0067723F /* AppDelegate.m in Sources */,
 				65D9A0461A93344F0067723F /* main.m in Sources */,
+				656558431AA0C9340012FAE1 /* card.m in Sources */,
+				656558461AA0C9340012FAE1 /* playingCardDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +444,7 @@
 				65D9A0651A93344F0067723F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65D9A0661A93344F0067723F /* Build configuration list for PBXNativeTarget "mc1Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +453,7 @@
 				65D9A0681A93344F0067723F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
